@@ -1215,73 +1215,6 @@ pre .javascript .function {
 .use-motion .menu-item {
   opacity: 0;
 }
-.github-corner :hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-.github-corner > svg {
-  fill: #222;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  border: 0;
-  right: 0;
-}
-@media (max-width: 991px) {
-  .github-corner > svg {
-    fill: #fff;
-    color: #222;
-  }
-  .github-corner .github-corner:hover .octo-arm {
-    animation: none;
-  }
-  .github-corner .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-}
-@-moz-keyframes octocat-wave {
-  0%, 100% {
-    transform: rotate(0);
-  }
-  20%, 60% {
-    transform: rotate(-25deg);
-  }
-  40%, 80% {
-    transform: rotate(10deg);
-  }
-}
-@-webkit-keyframes octocat-wave {
-  0%, 100% {
-    transform: rotate(0);
-  }
-  20%, 60% {
-    transform: rotate(-25deg);
-  }
-  40%, 80% {
-    transform: rotate(10deg);
-  }
-}
-@-o-keyframes octocat-wave {
-  0%, 100% {
-    transform: rotate(0);
-  }
-  20%, 60% {
-    transform: rotate(-25deg);
-  }
-  40%, 80% {
-    transform: rotate(10deg);
-  }
-}
-@keyframes octocat-wave {
-  0%, 100% {
-    transform: rotate(0);
-  }
-  20%, 60% {
-    transform: rotate(-25deg);
-  }
-  40%, 80% {
-    transform: rotate(10deg);
-  }
-}
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -1883,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5966eb;
+  background: #ffffcb;
 }
 .feed-link,
 .chat {
@@ -2134,22 +2067,6 @@ pre .javascript .function {
   50%, 70% {
     transform: scale(1.1);
   }
-}
-#gitment-display-button {
-  display: inline-block;
-  padding: 0 15px;
-  color: #0a9caf;
-  cursor: pointer;
-  font-size: 14px;
-  border: 1px solid #0a9caf;
-  border-radius: 4px;
-}
-#gitment-display-button:hover {
-  color: #fff;
-  background: #0a9caf;
-}
-#gitment-container a {
-  border-bottom: none;
 }
 .local-search-pop-overlay {
   position: fixed;
@@ -2996,13 +2913,14 @@ ul.breadcrumb li+li:last-child {
 }
 .post-body h3 {
   font-size: 1.3em;
-  border-bottom: 1px dotted #eee;
+  border-bottom: 1px solid #eee;
 }
 .post-body h3 code {
   font-size: 1em;
 }
 .post-body h4 {
   font-size: 1.2em;
+  border-bottom: 1px dotted #eee;
 }
 .post-body h4 code {
   font-size: 1em;
